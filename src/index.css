@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink-900 text-paper-100 font-body antialiased;
+}
+
+::selection {
+  background: rgba(69, 216, 201, 0.28);
+  color: #EAF1F5;
+}
+
+/* thin custom scrollbar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #0A0E15; }
+::-webkit-scrollbar-thumb { background: #1C2836; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #243044; }
+
+.blueprint-grid {
+  background-image: linear-gradient(rgba(69,216,201,0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(69,216,201,0.055) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Visible keyboard focus */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #45D8C9;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+.animate-marquee-left {
+  animation: marquee-left 26s linear infinite;
+}
+.animate-marquee-right {
+  animation: marquee-right 32s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
