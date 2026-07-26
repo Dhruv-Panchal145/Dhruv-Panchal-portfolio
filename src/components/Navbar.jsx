@@ -41,7 +41,7 @@ export default function Navbar({ onConnect }) {
           to="/"
           className="font-display text-lg font-semibold tracking-tight text-paper-100"
         >
-          D<span className="text-cyan-500">.</span>P.
+          Dhruv<span className="text-cyan-500">  </span>Panchal
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
