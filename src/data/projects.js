@@ -30,8 +30,8 @@ const projects = [
       "Render",
     ],
     links: {
-      github: "https://github.com/dhruv-pancha145/nexagpt-frontend",
-      githubSecondary: "https://github.com/dhruv-pancha145/nexagpt-backend",
+      github: "https://github.com/Dhruv-Panchal145/nexagpt-frontend",
+      githubSecondary: "https://github.com/Dhruv-Panchal145/nexagpt-backend",
       githubSecondaryLabel: "Backend repo",
       live: "https://nexagpt-frontend-one.vercel.app",
     },
@@ -56,10 +56,10 @@ const projects = [
     ],
     stack: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "bcrypt"],
     links: {
-      github: "https://github.com/dhruv-pancha145/zerodha-frontend",
-      githubSecondary: "https://github.com/dhruv-pancha145/zerodha-dashboard",
+      github: "https://github.com/Dhruv-Panchal145/zerodha-frontend",
+      githubSecondary: "https://github.com/Dhruv-Panchal145/zerodha-dashboard",
       githubSecondaryLabel: "Dashboard repo",
-      githubTertiary: "https://github.com/dhruv-pancha145/zerodha-backend-",
+      githubTertiary: "https://github.com/Dhruv-Panchal145/zerodha-backend-",
       githubTertiaryLabel: "Backend repo",
       live: "https://zerodha-frontend-lovat.vercel.app",
       liveSecondary: "https://zerodha-dashboard-two-orpin.vercel.app",
@@ -97,7 +97,7 @@ const projects = [
       "AWS Location Service",
     ],
     links: {
-      github: "https://github.com/dhruv-pancha145/wanderlust",
+      github: "https://github.com/Dhruv-Panchal145/wanderlust",
       live: "https://wanderlust-sqgw.onrender.com",
     },
     accent: "cyan",

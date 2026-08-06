@@ -1,7 +1,7 @@
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 
 const socials = [
-  { icon: FiGithub, href: "https://github.com/dhruv-pancha145", label: "GitHub" },
+  { icon: FiGithub, href: "https://github.com/Dhruv-Panchal145", label: "GitHub" },
   {
     icon: FiLinkedin,
     href: "https://www.linkedin.com/in/dhruv-panchal-524a2037a",
