@@ -136,8 +136,6 @@ const projects = [
       githubSecondary: "https://github.com/Dhruv-Panchal145/live-desk-backend",
       githubSecondaryLabel: "Backend repo",
       live: "https://live-desk-frontend.vercel.app",
-      liveSecondary: "https://live-desk-backend.onrender.com",
-      liveSecondaryLabel: "Backend API",
     },
     accent: "violet",
   },
