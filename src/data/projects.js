@@ -42,7 +42,7 @@ const projects = [
     name: "Zerodha Clone",
     tag: "Trading Platform",
     status: "Live",
-    year: "2025",
+    year: "2026",
     summary:
       "A full-stack stock trading platform clone, split into frontend, dashboard and backend services with cookie-based JWT auth.",
     description:
