@@ -102,6 +102,45 @@ const projects = [
     },
     accent: "cyan",
   },
+  {
+    slug: "live-desk",
+    name: "Live Desk",
+    tag: "Video Conferencing · WebRTC",
+    status: "Live",
+    year: "2026",
+    summary:
+      "A full-stack Zoom-inspired video conferencing platform with real-time peer-to-peer video, chat, and meeting history — built on WebRTC and Socket.IO.",
+    description:
+      "Live Desk is a production-deployed video conferencing app built with the MERN stack, WebRTC for peer-to-peer media streams, and Socket.IO for real-time signaling and in-meeting chat. The backend handles room management, user authentication, and meeting history persistence in MongoDB, while the frontend manages media negotiation, stream rendering, and live participant updates — the kind of moving parts that look simple in a demo but require careful coordination in a real deployment.",
+    features: [
+      "Peer-to-peer video and audio via WebRTC with Socket.IO-based signaling",
+      "Real-time in-meeting chat with live participant list updates",
+      "Meeting history — past sessions stored and accessible per user",
+      "Secure authentication with JWT and bcrypt-hashed passwords",
+      "Separate frontend (Vercel) and backend (Render) services in production",
+    ],
+    stack: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "WebRTC",
+      "Socket.IO",
+      "JWT",
+      "bcrypt",
+      "Vercel",
+      "Render",
+    ],
+    links: {
+      github: "https://github.com/Dhruv-Panchal145/live-desk-frontend",
+      githubSecondary: "https://github.com/Dhruv-Panchal145/live-desk-backend",
+      githubSecondaryLabel: "Backend repo",
+      live: "https://live-desk-frontend.vercel.app",
+      liveSecondary: "https://live-desk-backend.onrender.com",
+      liveSecondaryLabel: "Backend API",
+    },
+    accent: "violet",
+  },
 ];
 
 export default projects;
