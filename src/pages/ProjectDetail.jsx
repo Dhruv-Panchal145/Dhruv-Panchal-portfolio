@@ -17,6 +17,15 @@ export default function ProjectDetail() {
     window.scrollTo(0, 0);
   }, [slug]);
 
+  useEffect(() => {
+  if (project) {
+    document.title = `${project.name} — Dhruv Panchal`;
+  }
+  return () => {
+    document.title = "Dhruv Panchal — Full Stack Developer in Ahmedabad";
+  };
+}, [project]);
+
   if (!project) {
     return (
       <div className="mx-auto max-w-2xl px-6 py-40 text-center">
